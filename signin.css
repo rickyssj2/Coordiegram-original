@@ -2,7 +2,7 @@ html{
 	scroll-behavior: smooth;
 }
 body{
-	background-color: #white;
+	background-color: white;
 	/* background-image: url(images/indexbgold.jpg); */
 	/* background-repeat: no-repeat;
 	background-position: center;
@@ -190,8 +190,7 @@ body{
 	z-index:100;
 	margin-top:1.5625rem;
 	height:5rem;
-	width: 5rem;
-	border-radius:5rem;
+	transform: scale(1.05);
 }
 
 .story-card{
@@ -235,10 +234,10 @@ body{
 	width:45%;
 }
 
-.carousel-inner{
+/* .carousel-inner{
 	/* height: 38.3125rem !important; */
 	/* width: 38.4375rem !important; */
-}
+
 
 .image-wrapper{
 	max-width: 150px;
