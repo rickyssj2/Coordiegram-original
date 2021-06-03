@@ -35,6 +35,14 @@ body{
 }
 */
 
+/* .modal{
+	z-index: 999;
+	position: absolute;
+} */
+
+.modal-backdrop{
+	z-index: 0 !important;
+}
 .coordie-img{
 	height: 6.25rem;
 	width: 9.375rem;
